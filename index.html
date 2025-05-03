@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Afif Zaheen - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container glass-card">
+    <header>
+      <h1 class="logo">Afif Zaheen</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#" onclick="showSection('home')">Home</a></li>
+          <li><a href="#" onclick="showSection('about')">About</a></li>
+          <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+          <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+          <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <!-- Home -->
+      <section id="home" class="section active">
+        <div class="home-content">
+          <!-- Left Side -->
+          <div class="home-left">
+            <h2>Afif Zaheen</h2>
+            <h4>Full Stack Developer</h4>
+            <p>
+              Full Stack Developer with hands-on experience building scalable web applications using Js, CSS, Python, React.js, Node.js, and RESTful APIs. Known for delivering clean, responsive UIs and integrating seamlessly with backend logic. Strong understanding of full development cycles—from design to deployment—backed by internships and independent projects that simulate production-level standards. Adaptable, fast learner, and excited to contribute to senior-level development environments with fresh energy and a problem-solving mindset.
+            </p>
+            <div class="hire-container">
+              <button class="hire-btn" onclick="toggleHireLinks()">Hire Me</button>
+              <div id="hire-links" class="hire-links hidden">
+                <a href="mailto:afifzaheenva@gmail.com" target="_blank">
+                  <img src="images/icons8-gmail-48.png" alt="Email" class="icon" /> Email
+                </a>
+                <a href="https://www.linkedin.com/in/afifzaheen" target="_blank">
+                  <img src="images/LinkedIn.png" alt="LinkedIn" class="icon" /> LinkedIn
+                </a>
+                <a href="images/Afif Zaheen(RESUME-).pdf" download>
+                  <img src="images/icons8-pdf-40.png" alt="Resume" class="icon" /> Resume
+                </a>
+              </div>
+            </div>
+          </div>
+          
+
+          <!-- Right Side -->
+          <div class="home-right">
+            <img src="images/link-photoaidcom-cropped.jpeg" alt="Afif Zaheen" class="profile-pic" />
+          </div>
+        </div>
+      </section>
+
+
+      <!-- About -->
+      <!-- About Section -->
+<section id="about" class="about-section section">
+  <h2 class="section-title">About Me</h2>
+  <p class="about-description">
+    As a passionate Full Stack Developer and fitness enthusiast, I thrive in environments that challenge both my mind and body. I have a deep-rooted love for coding, where I build scalable web applications using JavaScript, React.js, Node.js, and other powerful technologies. But just as much as I’m committed to writing clean, efficient code, I’m equally dedicated to staying fit and pushing my physical limits through workouts and football.
+
+Whether it's tackling complex coding challenges or crushing a gym session, I bring the same discipline, focus, and passion to both. I believe that balance is key, and the energy I gain from my physical pursuits fuels my creative problem-solving and productivity in the tech world. I enjoy combining both worlds by staying disciplined and focused in my development journey, while always making room for fitness and personal growth.
+
+My goal is to create impactful, user-centric digital experiences through innovative solutions, while leading a lifestyle that champions both mental and physical well-being.
+  </p>
+ 
+  <!-- Experience Section -->
+  <div class="experience">
+    <h3 class="section-title">My Experience: </h3>
+
+    <!-- Graduation (UG & PG) -->
+    <div class="graduation">
+      <h4 class="section-subtitle">Education</h4>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <img src="images/icons8-education-30.png" alt="UG Education">
+          </div>
+          <div class="timeline-content">
+            <h5>International India School, Dammam</h5>
+            <p>2005-2019</p>
+          </div>
+        </div>
+       
+        <!-- UG -->
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <img src="images/icons8-education-30.png" alt="UG Education">
+          </div>
+          <div class="timeline-content">
+            <h5>Bachelor of Computer Applications (BCA)</h5>
+            <p>GRD College, Coimbatore</p>
+            <p>2019 - 2022</p>
+          </div>
+        </div>
+        <!-- PG -->
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <img src="images/icons8-education-30.png" alt="PG Education">
+          </div>
+          <div class="timeline-content">
+            <h5>Masters of Computer Applications (MCA)</h5>
+            <p>GRD College, Coimbatore</p>
+            <p>2023 - 2025</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work & Internship Experience -->
+    <div class="work-experience">
+      <h4 class="section-subtitle">Work & Internship Experience</h4>
+      <div class="timeline">
+        <!-- Internship 1 -->
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <img src="images/icons8-work-60.png" alt="Internship 1">
+          </div>
+          <div class="timeline-content">
+            <h5> SAT Exchange</h5>
+            <p> Software Engineer Intern</p>
+            <p>Nov 2024 - Feb 2025</p>
+          </div>
+        </div>
+        <!-- Internship 2 -->
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <img src="images/icons8-work-60.png" alt="Internship 2">
+          </div>
+          <div class="timeline-content">
+            <h5>KOVAN LABS</h5>
+            <p> Full stack developer Intern</p>
+            <p>Sep 2024 – Oct 2024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tech-stack">
+    <h3>Tech Stack</h3>
+    <div class="tech-icons">
+      <div class="tech-item">
+        <img src="images/React.png" alt="React" class="tech-icon"/>
+        <span>React</span>
+      </div>
+      <div class="tech-item">
+        <img src="images/Node.js.png" alt="Node" class="tech-icon"/>
+        <span>Node.js</span>
+      </div>
+      <div class="tech-item">
+        <img src="images/MongoDB.png" alt="MongoDB" class="tech-icon"/>
+        <span>MongoDB</span>
+      </div>
+      <div class="tech-item">
+        <img src="images/Postman.png" alt="Postman" class="tech-icon"/>
+        <span>Postman</span>
+      </div>
+      <div class="tech-item">
+        <img src="images/MySQL.png" alt="MySQL" class="tech-icon"/>
+        <span>MySQL</span>
+      </div>
+      <div class="tech-item">
+        <img src="images/JavaScript.png" alt="JavaScript" class="tech-icon"/>
+        <span>JavaScript</span>
+      </div>
+      <div class="tech-item">
+        <img src="images/GitHub.png" alt="GitHub" class="tech-icon"/>
+        <span>GitHub</span>
+      </div>
+      <div class="tech-item">
+        <img src="images/FastAPI.png" alt="FastAPI" class="tech-icon"/>
+        <span>FastAPI</span>
+      </div>
+      <div class="tech-item">
+        <img src="images/AngularJS.png" alt="AngularJS" class="tech-icon"/>
+        <span>AngularJS</span>
+      </div>
+      <div class="tech-item">
+        <img src="images/Kaggle.png" alt="Kaggle" class="tech-icon"/>
+        <span>Kaggle</span>
+      </div>
+      <div class="tech-item">
+        <img src="images/icons8-python-48.png" alt="Python" class="tech-icon"/>
+        <span>Python</span>
+      </div>
+      <div class="tech-item">
+        <img src="images/Tailwind CSS.png" alt="TailwindCSS" class="tech-icon"/>
+        <span>Python</span>
+      </div>
+      <!-- Add more tech icons as needed -->
+    </div>
+  </div>
+</div>
+</section>
+
+      <!-- Projects -->
+      <section id="projects" class="section">
+        <h2>Featured Projects</h2>
+
+        <!-- SOLARA Project -->
+        <div class="featured-project">
+          <h3>SOLARA Luxury Tech Website</h3>
+          <p>
+            A sleek and high-end web experience inspired by luxury product brands.
+            Built with React and TailwindCSS to reflect elegance, interactivity, and modern design aesthetics.
+          </p>
+          <div class="project-images">
+            <img src="images/Screenshot 2025-05-02 130154.jpg" alt="Solara Hero" />
+            <img src="images/Screenshot 2025-05-02 130220.jpg" alt="Solara Testimonials" />
+          </div>
+          <p>
+            <a href="https://github.com/afifzaheen/Solaratechie" target="_blank">GitHub Repo</a> |
+            <a href="https://v0-solara-luxury-website.vercel.app/" target="_blank">Live Demo</a>
+          </p>
+        </div>
+
+        <!-- Fitness Website Project -->
+        <div class="featured-project">
+          <h3>Modern Fitness Website using Advanced UI</h3>
+          <p>
+            Sleek. Responsive. Powerful. A Fitness Website Engineered with React.js and TailwindCSS.
+          </p>
+          <div class="project-images">
+            <img src="images/FIT1.jpg" alt="Fitness Homepage" />
+            <img src="images/FIT2.jpg" alt="Fitness Dashboard" />
+          </div>
+          <p>
+            <a href="https://github.com/afifzaheen/fitnessUI" target="_blank">GitHub Repo</a> |
+            <a href="https://fitsyncc.netlify.app/" target="_blank">Live Demo</a>
+          </p>
+        </div>
+
+        <!-- Outfit Lookbook Video Demo -->
+        <div class="featured-project">
+          <h3>Live Walkthrough – Outfit Lookbook</h3>
+          <p>
+            A fashion-forward outfit lookbook designed with pure HTML, CSS, and JavaScript.
+            This video walkthrough showcases the full interface and interactive features without needing a live deployment.
+          </p>
+          <video controls width="75%" height="30%" style="border-radius: 12px; margin-top: 1rem; box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);">
+            <source src="images/lookbook.mp4" type="video/mp4" />
+          </video>
+          <p style="margin-top: 1rem;">
+            <a href="https://github.com/afifzaheen/OUTFITLOOKBOOK" target="_blank">GitHub Repo</a>
+          </p>
+        </div>
+
+        <!-- Mini Gaming App Video Demo -->
+        <div class="featured-project">
+          <h3>Live Walkthrough – Mini Gaming App</h3>
+          <p>
+            A fast-paced mini game designed entirely using HTML, CSS, and JavaScript. This video walkthrough shows its interactive UI and game mechanics without requiring a live host.
+          </p>
+          <video controls width="50%" height="30%" style="border-radius: 12px; margin-top: 1rem; box-shadow: 0 0 20px rgba(255, 180, 0, 0.3);">
+            <source src="images/minigame.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <p style="margin-top: 1rem;">
+            <a href="https://github.com/afifzaheen/minigame" target="_blank">GitHub Repo</a>
+          </p>
+        </div>
+
+        <hr />
+
+        <h2>Other Projects</h2>
+        <ul>
+          <li><strong>Customized Shopify Theme – Solo Project:</strong> Customized the Dawn theme using Liquid, HTML, CSS, and JS. Responsive design and GitHub hosted.</li>
+
+          <li><strong>E-commerce Web App:</strong> Full-stack app using Node.js, Express, MongoDB, and React. Integrated payment gateway, authentication, product filtering.</li>
+          <li><strong>Investment Platform:</strong> React frontend with dashboards using Chart.js, mobile-first responsive UI.</li>
+          <li><strong>Python Data Processor:</strong> Script using Python and Pandas for data processing.</li>
+          <li><strong>Adidas Clone:</strong> Fully responsive Adidas website clone.</li>
+          <li><strong>Chrome Extension - Productivity Enhancer:</strong> Blocks distractions, tracks usage using local storage and background scripts.</li>
+        </ul>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <h2>Skills</h2>
+        <p><strong>Languages:</strong> JavaScript (ES6+), Python</p>
+        <p><strong>Frontend:</strong> HTML, CSS, JavaScript</p>
+        <p><strong>Frameworks:</strong> React, Next.js, Redux, TailwindCSS, Bootstrap, Vue, Angular</p>
+        <p><strong>Backend:</strong> Node.js, Express.js</p>
+        <p><strong>Databases:</strong> MongoDB, MySQL</p>
+        <p><strong>Version Control:</strong> Git, GitHub</p>
+        <p><strong>Design Tools:</strong> Figma, Adobe XD</p>
+        <p><strong>Web development:</strong> Responsive Web Design, REST APIs, Performance Optimization</p>
+        <p><strong>API Integration:</strong> RESTful APIs, AJAX</p>
+        <p><strong>Performance Optimization:</strong>Website Speed Optimization, Load Time Reduction</p>
+        <p><strong>Hard Skills:</strong> Communication, Leadership, Problem Solving, Efficiency</p>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: afifzaheenva@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/afifzaheen" target="_blank">linkedin.com/in/afifzaheen</a></p>
+        <p>GitHub: <a href="https://github.com/afifzaheen" target="_blank">github.com/afifzaheen</a></p>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    function showSection(sectionId) {
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(section => {
+        section.classList.remove('active');
+      });
+      document.getElementById(sectionId).classList.add('active');
+    }
+
+    function toggleHireLinks() {
+      const links = document.getElementById('hire-links');
+      links.classList.toggle('hidden');
+    }
+  </script>
+</body>
+</html>
